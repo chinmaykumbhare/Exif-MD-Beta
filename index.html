@@ -256,7 +256,7 @@
     // File selection
     dropZone.addEventListener('click', () => fileInput.click());
     dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag'); });
-    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag');
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag'));
     dropZone.addEventListener('drop', e => {
       e.preventDefault();
       dropZone.classList.remove('drag');
